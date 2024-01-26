@@ -24,7 +24,7 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-    service-url:
+    serviceUrl:
       defaultZone: https://app-reg.onrender.com
 
 server:
