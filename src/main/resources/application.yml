@@ -17,6 +17,16 @@ spring:
           enabled: true
           lower-case-service-id: true
 
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: https://app-reg.onrender.com
+
 server:
   port: 8080
 
