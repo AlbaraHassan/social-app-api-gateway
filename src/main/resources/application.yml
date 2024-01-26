@@ -25,7 +25,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: https://app-reg.onrender.com
+      defaultZone: https://app-reg.onrender.com/eureka/
 
 server:
   port: 8080
